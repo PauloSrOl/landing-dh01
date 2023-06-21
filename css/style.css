@@ -171,3 +171,20 @@ span{
  .sobre-content h3{
     font-size: 2.6rem;
  }
+
+ .sobre-content p{
+    font-size: 1.6rem;
+    margin: 2rem 0 3rem;
+ }
+
+ .serviços h2 {
+    margin-bottom: 5rem;
+ }
+
+ .servicoes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+ }
