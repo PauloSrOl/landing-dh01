@@ -390,6 +390,14 @@ span{
         padding: 10rem 3% 2rem;
     }
 
+    .serviços{
+        padding-bottom: 7rem;
+    }
+
+    .portfolio{
+        padding-bottom: 7rem;
+    }
+
     .footer{
         padding: 2rem 3%;
     }
@@ -412,7 +420,7 @@ span{
         display: none;
     }
 
-    .navbar .active{
+    .navbar.active{
         display: block;
     }
 
@@ -451,4 +459,16 @@ span{
     .serviços h2{ 
         margin-bottom: 3rem;
     }
+
+    .portfolio h2{
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+ }
+
+ @media (max-width: 617px){
+
  }

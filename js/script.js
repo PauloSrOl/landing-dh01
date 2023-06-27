@@ -1,11 +1,11 @@
 /*============================ tooogle icon navbar =============================*/
 let menuIcon = document.querySelector('#menu-icon');
-let naavbar = document.querySelector('.navbar');
+let navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
-}
+};
 
 /*============================ scroll sections ctive link =============================*/
 let sections = document.querySelectorAll('section');
@@ -21,13 +21,13 @@ window.onscroll = () => {
         if(top >= offset && top < offset + height) {
             navLinks.forEach(links => {
                 links.classList.remove('active');
-                document.querySelector('header nav a[href*=' + id + ']').classList.add('active')
+                document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
             });
         };
     });
 
     /*============================ sticky nvbr =============================*/
-        let header = document.querySelector('header')
+        let header = document.querySelector('header');
 
         header.classList.toggle('sticky', window.scrollY > 100);
 
