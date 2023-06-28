@@ -56,7 +56,7 @@ ScrollReveal({
 
  /*============================ typed js =============================*/
  const typed = new Typed('.multiple-text', {
-    strings: ['Designer Gráfico', 'Editor de video', 'Divulgador de Eventos'],
+    strings: ['Designer Gráfico', 'Edição de audio/video', 'Divulgação de Eventos'],
     typeSpeed: 30,
     backSpeed: 30,
     backDelay: 100,
