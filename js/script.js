@@ -57,8 +57,9 @@ ScrollReveal({
  /*============================ typed js =============================*/
  const typed = new Typed('.multiple-text', {
     strings: ['Designer Gráfico', 'Edição de audio/video', 'Divulgação de Eventos'],
-    typeSpeed: 30,
-    backSpeed: 30,
+    typeSpeed: 40,
+    backSpeed: 40,
     backDelay: 100,
     loop: true
+    
  });
