@@ -392,7 +392,19 @@ span{
 
  /*brekpoints*/
 
- @media (max-width: 1200px){
+
+ 
+ @media (max-width: 1300px){
+    .home-content h3{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+ @media (max-width: 1285px){
+    .home-content h3{
+        font-size: 3rem;
+        font-weight: 700;
+    }
     html {
         font-size: 55%;
     }
