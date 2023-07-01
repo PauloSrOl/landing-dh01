@@ -398,7 +398,26 @@ span{
     }
  }
 
+ 
+ @media (max-width: 1141px){
+    .home-content h3{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+ } 
+
+ @media (max-width: 1060px){
+    .home-content h3{
+        font-size: 2.8rem;
+        font-weight: 700;
+    }
+ } 
+
  @media (max-width: 991px){
+
+    .home-content h3 {
+        font-size: 3rem;
+    }
     .header{
         padding: 2rem 3%;
     }
@@ -419,6 +438,16 @@ span{
         padding: 2rem 3%;
     }
  }
+
+
+
+ @media (max-width: 901px){
+    .home-content h3{
+        font-size: 2.7rem;
+        font-weight: 700;
+    }
+ }
+
 
  @media (max-width: 768px){
     #menu-icon{
@@ -503,8 +532,16 @@ span{
  }
 
  @media (max-width: 365px){
+
+    .home-content{
+        font-size: 30px;
+    }
+
+    .home-content h3 {
+        font-size: 20px;
+    }
     .home-img img{
-        width: 90vw;
+        width: 100vh;
     }
 
     .sobre-img{
