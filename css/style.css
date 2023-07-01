@@ -152,7 +152,7 @@ span{
     border-radius: 4rem;
     box-shadow: 0 0 1.6rem var(--main-color);
     font-size: 1.6rem;
-    color: var(--second-bg-color);
+    color: var(--text-color);
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
@@ -168,7 +168,7 @@ span{
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
 }
 
 .sobre-img img {
@@ -198,6 +198,10 @@ span{
     margin-bottom: 5rem;
  }
 
+ .serviços{
+    background: var(--second-bg-color);
+ }
+
  .serviços-container{
     display: flex;
     justify-content: center;
@@ -208,7 +212,7 @@ span{
 
  .serviços-container .serviços-box{
     flex: 1 1 30rem;
-    background: var(--second-bg-color);
+    background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     text-align: center;
