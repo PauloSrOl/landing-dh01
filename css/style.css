@@ -85,6 +85,7 @@ section{
 .home-img img{
     width: 35vw;
     animation: floatImage 4s ease-in-out infinite;
+    display: flex;
 }
 
 @keyframes floatImage{
@@ -503,6 +504,8 @@ span{
     .home-img img {
         width: 70vw;
         margin-top: 4rem;
+        width: 400px;
+        height: 500px;
     }
 
     .sobre {
@@ -541,8 +544,11 @@ span{
     .contato form .input-box input{
         width:100%;
     }
- }
 
+    .home-img {
+       
+ }
+ }
  @media (max-width: 365px){
 
     .home-content{
